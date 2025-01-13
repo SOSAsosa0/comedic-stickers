@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magasin de Stickers Comiques</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Stickers Comiques</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Bienvenue dans le magasin de stickers les plus drôles !</h2>
+            <p>Trouvez des stickers uniques inspirés par des célébrités pour illuminer votre journée.</p>
+            <a href="#products" class="cta">Achetez Maintenant</a>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Nos Produits</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="sticker1.jpg" alt="Sticker Célébrité 1">
+                    <h3>Sticker Célébrité 1</h3>
+                    <p>5,00 €</p>
+                    <button>Ajouter au Panier</button>
+                </div>
+                <div class="product-item">
+                    <img src="sticker2.jpg" alt="Sticker Célébrité 2">
+                    <h3>Sticker Célébrité 2</h3>
+                    <p>5,00 €</p>
+                    <button>Ajouter au Panier</button>
+                </div>
+                <!-- Ajoutez plus de produits si nécessaire -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À Propos de Nous</h2>
+            <p>Nous créons des stickers de haute qualité et hilarants inspirés par vos célébrités préférées. Parfaits pour personnaliser vos gadgets, cahiers et bien plus encore !</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contactez-Nous</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section id="payment" class="payment">
+            <h2>Informations de Paiement</h2>
+            <p>Nous proposons actuellement le <strong>paiement à la livraison</strong>. Passez votre commande et payez lorsque votre colis arrive chez vous !</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Magasin de Stickers Comiques. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
